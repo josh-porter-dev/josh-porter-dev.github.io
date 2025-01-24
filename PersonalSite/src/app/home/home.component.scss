@@ -1,0 +1,78 @@
+.home {
+    padding: 2vw 0 2vw 9vw;
+    height: 92vh;
+    font-family: 'SuisseIntl',Arial,Helvetica,sans-serif;
+    // background: linear-gradient(to bottom, #e7f3f6 0%, #AFDDE5 100%);
+    background: rgb(234, 234, 234);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 91%;
+    justify-content: space-between;
+    .profile-card{
+        background: white;
+        padding: 2vh;
+        max-width: 25%;
+        justify-items: center;
+        border-radius: 20px;
+        display: inline-block;
+        vertical-align: top;
+        .details {
+            display: flex;
+            width: 90%;
+            justify-content: space-between;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+        h2 {
+            font-size: calc(1vw + 1vh);
+            justify-items: center;
+            font-weight: bold;
+            // margin-bottom: -1vh;
+        }
+        sub {
+            font-size: calc(.5vw + .5vh);
+            justify-items: center;
+            font-weight: bold;
+        }
+        hr {
+            height: 0px;
+            width: 100%;
+            background: black;
+            margin: 2vh 0;
+        }
+        p {
+            background: lightgrey;
+            padding: 2vh;
+            border-radius: 20px;
+        }
+    }
+    .skills-card {
+        display: inline-block; 
+        vertical-align: top;
+        background: #AFDDE5;
+        width: 100%;
+        padding: 0 4vh;
+        margin: 0 2vw;
+        border-radius: 20px;
+        .skills-header {
+            background: #024950;
+            color: white;
+            padding: 2vh;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .skill{
+            display: inline-block; 
+            vertical-align: top;
+            margin: 2vh 2vw;
+            background: white;
+            border-radius: 20px;
+            width: 25vw;
+            height: 25vh;
+        }
+    }
+}
